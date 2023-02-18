@@ -52,6 +52,9 @@ body{
     font-weight: 700;
 }
 
+
+/* header formats */
+
 .header {
     overflow: hidden;
     height: 40%;
@@ -81,6 +84,9 @@ body{
     text-align: left;
     color: var(--header-text-color);
 }
+
+
+/* text context formats */
 
 .text-content{
     font-family: var(--font-family);
@@ -127,6 +133,9 @@ h3{
     margin:auto;
      
 }
+
+
+/* grid formats */
 .ds_right{
     border-color: black;
     border-right: 5px;
@@ -216,12 +225,6 @@ h3{
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
   }
-
-  /* @media screen and (max-width: 700px) {
-    .container{
-        width: 1024px;
-    }
-  } */
 
   
 
