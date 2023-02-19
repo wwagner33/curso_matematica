@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+:root {
+    --neutral-gray-04: #A0ABC2;
+    --ghost-white:  #F7F8FB;
+    --bg-color-1: #ffffff;
+    --body-color:  #F7F8FB;
+    --bg-color-2:  #F7F8FB;
+    --header-text-color:#F5F5F5;
+    --header-backgound-color: #140342;
+    --icon-back-color:  #F7F8FB;
+    --content-text-color: #282828;
+    --title-text-color: #282828;
+    --ds-border-color:  #A0ABC2;
+
+    --font-family: 'Lato', sans-serif;
+
+}
+
+
+*{
+    box-sizing: border-box;
+}
+.bg_1{
+    background-color: var(--bg-color-1);
+}
+.bg_2{
+    background-color: var(--bg-color-2);
+}
+body{
+   background-color: var(--body-color)
+}
+
+.icon{
+    display: inline;
+    vertical-align: bottom;
+    background-color: var(--icon-back-color);
+    width: 32px;
+    height: 32px;
+    clear: both;
+}
+
+.symbol{
+    display: inline;
+    vertical-align: bottom;
+    background-color: var(--icon-back-color);
+    width: 1rem;
+    height: 1rem;
+    clear: both;
+    font-weight: 700;
+}
+
+
+/* header formats */
+
+.header {
+    overflow: hidden;
+    height: 40%;
+    padding: 8px 0 8px 32px;
+    background: var(--header-backgound-color);   
+}
+
+.hr_logo, .hr_title{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hr_logo{
+    display: inline;
+    margin-right: 10px;
+}
+
+.hr_title{
+    display: inline;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26.85px;
+    text-align: left;
+    color: var(--header-text-color);
+}
+
+
+/* text context formats */
+
+.text-content{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--content-text-color);
+}
+
+h1{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--title-text-color);
+}
+
+h2{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: var(--title-text-color);
+}
+
+h3{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    color: var(--title-text-color);
+}
+
+
+
+.content{
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin:auto;
+     
+}
+
+
+/* grid formats */
+.ds_right{
+    border-color: black;
+    border-right: 5px;
+    
+}
+
+
+.container{
+    position: absolute;
+    display: block;
+    margin: auto;
+    width: 1024px;
+    top: 0px;
+    left:0px;
+    right: 0px;
+    bottom: 0px;
+
+}
+
+.column_s1 {
+    float: left;
+    width: 25%;
+}
+
+.column_s2{
+    float: left;
+    width: 50%;
+}
+
+.column_s3{
+    float: left;
+    width: 75%;
+}
+.column_s4{
+    float: left;
+    width: 100%;
+}
+
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.footer{
+    margin: 5px;
+    position: relative;
+    text-align: center;
+    font-size: smaller;
+}
+
+/* Collapsible Component */
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+
+  .collapsible-content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+
+  
+
+

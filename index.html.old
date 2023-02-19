@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Importa Icones do Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importa o Materialize.css minificado-->
+
+    <link type="text/css" rel="stylesheet" href="asserts/css/material.css"  media="screen,projection"/>
+
+
+
+    <!--Otimiza o site para navegadores em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+
+    <div class="container">
+        <div class="row">
+            <div class="column_s4  header">
+                <div class="hr_logo">
+                    <img class="icon" src="asserts/images/icons/function.svg" alt="Ìcone de uma função matemática">
+                </div>
+                <div class="hr_title">
+                    Funções
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- <div class="column_s1 ds_right">
+                <button class="collapsible">Open Section 1</button>
+                <div class="collapsible-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <button class="collapsible">Open Section 2</button>
+                <div class="collapsible-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <button class="collapsible">Open Section 3</button>
+                <div class="collapsible-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div> -->
+                
+            <div class="column_s4 bg_1 content">
+                <h1>Conteúdo</h1>
+                <p class="text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia consequatur, tempore veniam est debitis delectus nostrum voluptas cupiditate incidunt tempora numquam aspernatur ea voluptatum, repudiandae quos molestiae deserunt obcaecati animi vero sequi libero, dolorum placeat consequuntur at. Quos, reprehenderit tempora?</p>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="column_s4 bg_1 nav-content">
+          </div>
+        </div>
+        <p class="footer">Copyleftt <img class="symbol" src="asserts/images/icons/copyleft.png" alt="Icone com a letra C invertida significando Copyleft"/>2022 Instituto Universidade Virtual.</p>
+    </div>
+            
+    <script type="text/javascript" src="asserts/js/material.js"></script>
+  </body>
+</html>
