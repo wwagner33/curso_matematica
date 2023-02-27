@@ -23,8 +23,20 @@ body {
     background-color: #fafafa;
 
 } 
-nav > ul > li > a{
+nav{
+    background-color: white;
+}
+nav .brand-logo {
     color: black;
+}
+
+nav ul a{
+    color: black;
+}
+
+.material-icons{
+    color: orange;
+    opacity: 50%;
 }
 
 main {
@@ -52,7 +64,7 @@ main {
 
     height: 20%;
 
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border-color: gray;
     border-radius: 0px 0px 5px 5px;
 
@@ -104,4 +116,8 @@ main {
     margin-bottom: 20px;
 }
 
+.paragraph{
+    display: inline-block;
+    margin-left: 2rem;
+}
 
