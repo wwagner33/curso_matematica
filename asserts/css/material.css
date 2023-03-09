@@ -20,36 +20,103 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-color: #fafafa;
+
 } 
+nav{
+    background-color: white;
+}
+nav .brand-logo {
+    color: black;
+}
+
+nav ul a{
+    color: black;
+}
+
+.material-icons{
+    color: orange;
+    opacity: 50%;
+}
 
 main {
     flex: 1 0 auto;
 }
 
   
-h1,h2,h3,h4,h5,h6 {
-    color: orange;
-}
   
-a, .menu {
-    color: white;
-}
-
 .container {
     width: 90%;
+    background-color: white;
 }
-  
-.material-icons {
-    color: #29b6f6;
-}
-  
 
 .page-footer {
+    font-size: smaller;
     margin: 0;
 }
-  
-.page-footer a span{
-    color: white;
+
+.title-panel{
+    box-sizing: border-box;
+    display: block;
+    padding: 32px 40px 24px;
+    margin: auto auto;
+    gap: 16px;
+
+    height: 20%;
+
+    background-color: #FFFFFF;
+    border-color: gray;
+    border-radius: 0px 0px 5px 5px;
+
+}
+.title{
+    box-sizing: border-box;
+    display: block;
+    font-family: inherit;
+    color:black;
+    font-weight: bold;
+    font-size: 1.8rem;
+
+}
+.title div {
+    display: inline;
+}
+.subtitle{
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    font-family: inherit;
+    color:black;
+    font-weight: 200;
+    font-size: 1rem;
+    margin-top: 50px;
 }
 
+.points{
+    display: block;
+    float: right;
+    font-size: small;
+    padding: 8px 16px;
+    gap: 10px;
+    color: #FFFFFF;
 
+    width: 61px;
+    height: 35px;
+
+    background: #FBC037;
+    border: 1px solid #FBC037;
+    border-radius: 5px;
+}
+.float-image {
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.paragraph{
+    display: inline-block;
+    margin-left: 2rem;
+}

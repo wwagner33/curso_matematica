@@ -7,9 +7,9 @@ const favDialog = document.getElementById('favDialog');
 const txtName = document.getElementById('txtName');
 const confirmBtn = favDialog.querySelector('#confirmBtn');
 
-let pointCounter = sessionStorage.getItem("pointCounter");
-let taskCounter = sessionStorage.getItem("taskCounter");
-let userName = sessionStorage.getItem("userName");
+let pointCounter = localStorage.getItem("pointCounter");
+let taskCounter = localStorage.getItem("taskCounter");
+let userName = localStorage.getItem("userName");
 
 const totalTasks = 20;
 
@@ -30,7 +30,7 @@ function modalDialog(txt,obj){
   // "Confirm" button of form triggers "close" on dialog because of [method="dialog"]
 
   favDialog.addEventListener('close',() => {
-    sessionStorage.setItem("userName",txtName.value); //favDialog.returnValue
+    localStorage.setItem("userName",txtName.value); //favDialog.returnValue
     obj.innerHTML = txtName.value;
   });
 }
@@ -48,7 +48,7 @@ function showUserName() {
   if (userName == null) {
     modalDialog("Como devo chamar você (com no máximo 10 letras)?",document.getElementById("userNameShower"));
   } else {
-    document.getElementById("userNameShower").innerHTML = sessionStorage.getItem("userName");
+    document.getElementById("userNameShower").innerHTML = localStorage.getItem("userName");
   }
 }
 
@@ -64,8 +64,8 @@ document.body.onload = initApp;
 
 
 //teste de funcoes
-sessionStorage.setItem("pointCounter", ++pointCounter);
-sessionStorage.setItem("taskCounter", ++taskCounter);
+localStorage.setItem("pointCounter", ++pointCounter);
+localStorage.setItem("taskCounter", ++taskCounter);
 showCounters();
 
 
