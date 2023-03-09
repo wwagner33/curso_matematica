@@ -2,43 +2,43 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   viewBox="0 0 319 77"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
    version="1.1"
    id="svg5"
    inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
-   sodipodi:docname="Backgroud.svg"
+   sodipodi:docname="background_cx_texto.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="title"
+     id="namedview7"
+     pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="true"
-     inkscape:document-units="px"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.68684764"
-     inkscape:cx="-97.547107"
-     inkscape:cy="561.25985"
-     inkscape:window-width="1563"
-     inkscape:window-height="1091"
-     inkscape:window-x="434"
-     inkscape:window-y="191"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
-     units="px"
-     inkscape:showpageshadow="false"
-     pagecolor="#ffffff" />
+     inkscape:cx="152.87233"
+     inkscape:cy="561.25984"
+     inkscape:window-width="2560"
+     inkscape:window-height="1327"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs2">
     <filter
        id="filter0_d_74_1636"
-       x="647.34802"
-       y="71.412598"
-       width="98.747101"
+       x="647.348"
+       y="71.4126"
+       width="98.7471"
        height="103.094"
        filterUnits="userSpaceOnUse"
        color-interpolation-filters="sRGB">
@@ -78,9 +78,9 @@
     <filter
        id="filter1_d_74_1636"
        x="546.789"
-       y="76.277802"
-       width="57.420898"
-       height="61.161999"
+       y="76.2778"
+       width="57.4209"
+       height="61.162"
        filterUnits="userSpaceOnUse"
        color-interpolation-filters="sRGB">
       <feFlood
@@ -119,9 +119,9 @@
     <filter
        id="filter2_d_74_1636"
        x="384.918"
-       y="88.438202"
-       width="57.436501"
-       height="61.176899"
+       y="88.4382"
+       width="57.4365"
+       height="61.1769"
        filterUnits="userSpaceOnUse"
        color-interpolation-filters="sRGB">
       <feFlood
@@ -159,9 +159,9 @@
     </filter>
     <filter
        id="filter3_d_74_1636"
-       x="48.566399"
-       y="79.349899"
-       width="37.682598"
+       x="48.5664"
+       y="79.3499"
+       width="37.6826"
        height="45.4198"
        filterUnits="userSpaceOnUse"
        color-interpolation-filters="sRGB">
@@ -201,9 +201,9 @@
     <filter
        id="filter4_d_74_1636"
        x="531.854"
-       y="16.143101"
-       width="32.057598"
-       height="35.522301"
+       y="16.1431"
+       width="32.0576"
+       height="35.5223"
        filterUnits="userSpaceOnUse"
        color-interpolation-filters="sRGB">
       <feFlood
@@ -242,7 +242,7 @@
     <filter
        id="filter6_d_74_1636"
        x="131.354"
-       y="-6.9641099"
+       y="-6.96411"
        width="219.938"
        height="202.911"
        filterUnits="userSpaceOnUse"
@@ -283,9 +283,9 @@
     <filter
        id="filter7_d_74_1636"
        x="302.767"
-       y="44.875702"
+       y="44.8757"
        width="49.4482"
-       height="50.776199"
+       height="50.7762"
        filterUnits="userSpaceOnUse"
        color-interpolation-filters="sRGB">
       <feFlood
@@ -325,7 +325,7 @@
        id="filter8_d_74_1636"
        x="249.817"
        y="-17.6824"
-       width="86.904297"
+       width="86.9043"
        height="65.4823"
        filterUnits="userSpaceOnUse"
        color-interpolation-filters="sRGB">
@@ -366,8 +366,8 @@
        id="filter9_d_74_1636"
        x="453.245"
        y="16.3948"
-       width="64.660202"
-       height="67.817497"
+       width="64.6602"
+       height="67.8175"
        filterUnits="userSpaceOnUse"
        color-interpolation-filters="sRGB">
       <feFlood
@@ -405,10 +405,10 @@
     </filter>
     <filter
        id="filter10_d_74_1636"
-       x="676.91101"
+       x="676.911"
        y="7.14502"
        width="86.9189"
-       height="62.816002"
+       height="62.816"
        filterUnits="userSpaceOnUse"
        color-interpolation-filters="sRGB">
       <feFlood
@@ -447,9 +447,9 @@
     <filter
        id="filter11_d_74_1636"
        x="-58.8447"
-       y="3.8911099"
-       width="84.195297"
-       height="77.620201"
+       y="3.89111"
+       width="84.1953"
+       height="77.6202"
        filterUnits="userSpaceOnUse"
        color-interpolation-filters="sRGB">
       <feFlood
@@ -490,7 +490,7 @@
        x="101.669"
        y="79.6082"
        width="87.167"
-       height="88.094597"
+       height="88.0946"
        filterUnits="userSpaceOnUse"
        color-interpolation-filters="sRGB">
       <feFlood
@@ -528,10 +528,10 @@
     </filter>
     <filter
        id="filter14_d_74_1636"
-       x="45.310501"
+       x="45.3105"
        y="-1.90308"
-       width="50.026402"
-       height="54.071701"
+       width="50.0264"
+       height="54.0717"
        filterUnits="userSpaceOnUse"
        color-interpolation-filters="sRGB">
       <feFlood
@@ -569,10 +569,10 @@
     </filter>
     <filter
        id="filter15_d_74_1636"
-       x="406.47501"
+       x="406.475"
        y="-20.4897"
-       width="50.026402"
-       height="54.071701"
+       width="50.0264"
+       height="54.0717"
        filterUnits="userSpaceOnUse"
        color-interpolation-filters="sRGB">
       <feFlood
@@ -612,8 +612,8 @@
        id="filter16_d_74_1636"
        x="595.289"
        y="-26.9202"
-       width="56.828098"
-       height="55.990601"
+       width="56.8281"
+       height="55.9906"
        filterUnits="userSpaceOnUse"
        color-interpolation-filters="sRGB">
       <feFlood
@@ -652,8 +652,8 @@
     <clipPath
        id="clip0_74_1636">
       <path
-         d="M 0,5 C 0,2.23858 2.23858,0 5,0 h 744 c 2.761,0 5,2.23858 5,5 v 95 H 0 Z"
-         fill="#ffffff"
+         d="M0 5C0 2.23858 2.23858 0 5 0H749C751.761 0 754 2.23858 754 5V100H0V5Z"
+         fill="white"
          id="path829" />
     </clipPath>
     <clipPath
@@ -663,7 +663,7 @@
          y="-136"
          width="1743"
          height="271"
-         fill="#ffffff"
+         fill="white"
          id="rect832" />
     </clipPath>
   </defs>
@@ -674,7 +674,7 @@
     <g
        style="fill:none"
        id="g1043"
-       transform="matrix(0.40635666,0,0,0.43863313,5.4635569,8.5287813)">
+       transform="matrix(0.11229001,0,0,0.10806334,8.8777792,80.305844)">
       <g
          clip-path="url(#clip0_74_1636)"
          id="g602">
